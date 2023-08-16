@@ -140,6 +140,12 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="StackOverflowProject.DomainModels\StackOverflowProject.DomainModels.csproj">
+      <Project>{0f8f6780-9c9e-4e22-8e3a-1f93a038e8a2}</Project>
+      <Name>StackOverflowProject.DomainModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
